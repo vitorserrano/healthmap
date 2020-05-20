@@ -1,8 +1,21 @@
 import React from 'react';
-import { Text } from 'react-native';
 
+import { 
+  Wrapper,
+  Container,
+  Header,
+  Logo, 
+  LogoBold,
+ } from './styles';
+ 
 export default Home = () => {
   return (
-    <Text style={{ marginTop: 120}}>Home</Text>
+    <Wrapper>
+      <Container>
+        <Header>
+          <Logo> <LogoBold> health </LogoBold> map </Logo> 
+        </Header>
+      </Container>
+    </Wrapper>
   );
 };
