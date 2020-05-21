@@ -10,14 +10,14 @@ export const Container = styled.ScrollView`
 `;
 
 export const Header = styled.View`
-  background: gray;
+  height: 200px;
 `;
 
 export const Logo = styled.Text`
+  font-size: 20px;
   color: #fff;
-  font-size: 16px;
 `;
 
 export const LogoBold = styled.Text`
-  color: red;
+  color: #00B0FF;
 `;

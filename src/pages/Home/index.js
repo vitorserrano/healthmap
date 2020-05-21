@@ -7,7 +7,7 @@ import {
   Logo, 
   LogoBold,
  } from './styles';
- 
+
 export default Home = () => {
   return (
     <Wrapper>
