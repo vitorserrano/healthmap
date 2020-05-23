@@ -68,6 +68,12 @@ export const Title = styled.Text`
   font-weight: bold;
 `;
 
+export const Subtitle = styled.Text`
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+`;
+
 export const OptionGroup = styled.View``;
 
 export const Option = styled.TouchableOpacity`

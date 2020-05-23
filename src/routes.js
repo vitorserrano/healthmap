@@ -14,7 +14,7 @@ export default Routes = () => {
     <NavigationContainer>
       <AppStack.Navigator screenOptions={{ headerShown: false }}>
           <AppStack.Screen name="Home" component={Home} />
-          <AppStack.Screen name="Map" component={Chart} />
+          <AppStack.Screen name="Chart" component={Chart} />
           <AppStack.Screen name="Detail" component={Detail} />
       </AppStack.Navigator>
     </NavigationContainer>
