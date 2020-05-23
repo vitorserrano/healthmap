@@ -55,9 +55,38 @@ export const Img = styled.Image.attrs(() => ({
 `;
 
 export const Content = styled.View`
+  padding: 30px 30px;
   background: #fff;
   height: 500px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  padding: 30px;
+`;
+
+export const Title = styled.Text`
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+`;
+
+export const OptionGroup = styled.View``;
+
+export const Option = styled.TouchableOpacity`
+  background: #7159C1;
+  padding: 25px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const OptionInfo = styled.View`
+  flex-direction: row;
+`;
+
+export const OptionText = styled.Text`
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
 `;
