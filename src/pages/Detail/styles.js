@@ -84,6 +84,7 @@ export const Call = styled.TouchableOpacity`
 
 export const CallGroup = styled.View`
   flex-direction: row;
+  align-items: center;
 `;
 
 export const CallText = styled.Text`

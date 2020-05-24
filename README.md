@@ -22,9 +22,17 @@ Essa aplicação tem o objetivo de mostrar ao usuário órgãos de saúde próxi
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [React Native](https://reactnative.dev/)
+    - [React Native Maps](https://github.com/react-native-community/react-native-maps)
 - [React Navigation v5](https://reactnavigation.org/)
-- [Expo](https://expo.io/)
 - [Styled Components](https://styled-components.com/)
+- [Expo](https://expo.io/)
+    - [Expo Location](https://docs.expo.io/versions/latest/sdk/location/)
+
+<h4 align="center">
+    <img alt="Home" title="#home" width="300px" src=".github/Home.jpeg">
+    <img alt="Map" title="#map" width="300px" src=".github/Map.jpeg">
+    <img alt="Detail" title="#Detail" width="300px" src=".github/Detail.jpeg">
+</h4>
 
 <a id="como-usar"></a>
 ## :fire: Como usar
