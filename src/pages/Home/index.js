@@ -56,7 +56,30 @@ export default Home = () => {
   }, [])
 
   const navigateToHospital = () => {
-    navigation.navigate('Chart', { userLocation: location });
+    navigation.navigate('Chart', { 
+        userLocation: location, 
+        category: 'HOSPITAL', 
+        icon: 'hospital-building' 
+      }
+    );
+  };
+
+  const navigateToHealthCenter = () => {
+    navigation.navigate('Chart', { 
+        userLocation: location, 
+        category: 'POSTO DE SAUDE', 
+        icon: 'medical-bag' 
+      }
+    );
+  };
+
+  const navigateToSamu = () => {
+    navigation.navigate('Chart', { 
+        userLocation: location, 
+        category: 'SAMU', 
+        icon: 'ambulance' 
+      }
+    );
   };
 
   return (
@@ -99,15 +122,15 @@ export default Home = () => {
                 <AntDesign name="arrowright" size={28} color="#04D361" />
               </Option>
     
-              <Option>
+              <Option onPress={navigateToHealthCenter}>
                 <OptionInfo>
-                  <Fontisto name="injection-syringe" size={28} color="#fff" />
+                  <MaterialCommunityIcons name="medical-bag" size={28} color="#fff" />
                   <OptionText> Postos de saúde </OptionText>
                 </OptionInfo>
                 <AntDesign name="arrowright" size={28} color="#04D361" />
               </Option>
     
-              <Option>
+              <Option onPress={navigateToSamu}>
                 <OptionInfo>
                   <MaterialCommunityIcons name="ambulance" size={28} color="#fff" />
                   <OptionText> SAMU </OptionText>
