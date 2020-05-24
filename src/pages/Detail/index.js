@@ -2,6 +2,8 @@ import React from "react";
 
 import { useRoute } from "@react-navigation/native";
 
+import Communications from "react-native-communications";
+
 import {
   Wrapper,
   Container,
@@ -16,7 +18,12 @@ import {
   CardGroup,
   CardTextBold,
   CardText,
+  Call,
+  CallGroup,
+  CallText,
 } from "./styles";
+
+import { Ionicons, AntDesign } from "@expo/vector-icons";
 
 import NavigateToBack from "../../components/NavigateToBack";
 
@@ -48,7 +55,7 @@ export default Detail = () => {
 
           <Card>
             <CardGroup>
-                <CardTextBold>Endereço</CardTextBold>
+              <CardTextBold>Endereço</CardTextBold>
               <CardText>{`${place.logradouro}, ${place.numero} - ${place.bairro}`}</CardText>
             </CardGroup>
 
@@ -72,6 +79,15 @@ export default Detail = () => {
               <CardText>{place.descricaoCompleta}</CardText>
             </CardGroup>
           </Card>
+
+          <Call onPress={() => Communications.phonecall(place.telefone, true)}>
+            <CallGroup>
+              <Ionicons name="ios-call" size={24} color="#fff" />
+              <CallText>Entrar em contato</CallText>
+            </CallGroup>
+
+            <AntDesign name="arrowright" size={28} color="#04D361" />
+          </Call>
         </Content>
       </Container>
     </Wrapper>

@@ -51,7 +51,7 @@ export const Attendance = styled.Text`
 
 export const Card = styled.ScrollView`
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   padding: 20px;
   background: #fff;
 `;
@@ -66,7 +66,29 @@ export const CardTextBold = styled.Text`
 `;
 
 export const CardText = styled.Text`
-  color: #333;
+  color: #666;
   margin-top: 5px;
   text-transform: capitalize;
+`;
+
+export const Call = styled.TouchableOpacity`
+  background: #7159C1;
+  padding: 25px 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const CallGroup = styled.View`
+  flex-direction: row;
+`;
+
+export const CallText = styled.Text`
+  color: #fff;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: bold;
 `;
