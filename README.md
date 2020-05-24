@@ -16,6 +16,12 @@ A ideia foi apresentada pela faculdade e decidi fazer a implementação do meu j
 
 Essa aplicação tem o objetivo de mostrar ao usuário órgãos de saúde próximos a sua geolocalização. No aplicativo é possível procurar por Hospitais, Postos de saúde e pelo SAMU.
 
+## :heavy_check_mark: Resultado 
+
+<h4 align="center">
+    <img alt="Home" title="#home" width="350px" src=".github/Video.gif">
+</h4>
+
 <a id="tecnologias-utilizadas"></a>
 ## :rocket: Tecnologias Utilizadas
 
@@ -23,10 +29,13 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [React Native](https://reactnative.dev/)
     - [React Native Maps](https://github.com/react-native-community/react-native-maps)
+    - [React Native Communications](react-native-communications)
 - [React Navigation v5](https://reactnavigation.org/)
 - [Styled Components](https://styled-components.com/)
 - [Expo](https://expo.io/)
     - [Expo Location](https://docs.expo.io/versions/latest/sdk/location/)
+
+## :iphone: Screens
 
 <h4 align="center">
     <img alt="Home" title="#home" width="300px" src=".github/Home.jpeg">
