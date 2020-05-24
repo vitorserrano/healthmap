@@ -32,6 +32,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     - [React Native Communications](react-native-communications)
 - [React Navigation v5](https://reactnavigation.org/)
 - [Styled Components](https://styled-components.com/)
+- [Axios](https://github.com/axios/axios)
 - [Expo](https://expo.io/)
     - [Expo Location](https://docs.expo.io/versions/latest/sdk/location/)
 
