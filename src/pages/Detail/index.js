@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Linking } from 'react-native';
+
 import { useRoute } from "@react-navigation/native";
 
 import Communications from "react-native-communications";
@@ -88,6 +90,16 @@ export default Detail = () => {
 
             <AntDesign name="arrowright" size={28} color="#04D361" />
           </Call>
+          
+          <Call onPress={() => Linking.openURL(`google.navigation:q=${place.lat},${place.long}`)}>
+            <CallGroup>
+              <Ionicons name="ios-car" size={24} color="#fff" />
+              <CallText>Como chegar</CallText>
+            </CallGroup>
+
+            <AntDesign name="arrowright" size={28} color="#04D361" />
+          </Call>
+
         </Content>
       </Container>
     </Wrapper>
