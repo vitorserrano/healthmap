@@ -14,7 +14,8 @@ export const Navbar = styled.View`
 `;
 
 export const Content = styled.View`
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
 `;
 
 export const BadgeGroup = styled.View`
@@ -75,7 +76,6 @@ export const Call = styled.TouchableOpacity`
   background: #7159C1;
   padding: 25px 20px;
   margin-top: 10px;
-  margin-bottom: 30px;
   border-radius: 10px;
   flex-direction: row;
   justify-content: space-between;
