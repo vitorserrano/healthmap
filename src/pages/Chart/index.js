@@ -77,8 +77,9 @@ export default Chart = () => {
                 coordinate={{ latitude: place.lat, longitude: place.long }}
                 pinColor="#04D361"
               >
-              <Callout
-                 onPress={() =>  navigation.navigate('Detail', { place: place })}
+              <Callout onPress={() =>  {
+                navigation.navigate('Detail', { place: place });
+              }}
               >
                 <View style={styles.callout}>
                   <Text style={styles.placeName}>{place.nomeFantasia}</Text>

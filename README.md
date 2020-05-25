@@ -14,7 +14,7 @@
 
 A ideia foi apresentada pela faculdade e decidi fazer a implementação do meu jeito com estrutura de arquivos e tecnologias diferentes.
 
-Essa aplicação tem o objetivo de mostrar ao usuário órgãos de saúde próximos a sua geolocalização. No aplicativo é possível procurar por Hospitais, Postos de saúde e SAMU.
+Essa aplicação tem o objetivo de mostrar ao usuário órgãos de saúde próximos a sua geolocalização. No aplicativo é possível procurar por Hospitais, Postos de saúde e SAMU. É possível também utilizar o GPS para chegar até o local escolhido.
 
 ## :heavy_check_mark: Resultado 
 
