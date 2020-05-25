@@ -15,7 +15,7 @@ export const Navbar = styled.View`
 
 export const Content = styled.View`
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 `;
 
 export const BadgeGroup = styled.View`
